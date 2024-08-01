@@ -197,6 +197,7 @@ img {
   border: none;
   padding: 16px 32px;
   min-width: 169px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -362,6 +363,10 @@ img {
   margin-right: 120px;
 }
 
+.footer-socnetwork {
+  margin-right: 80px;
+}
+
 .footer-socnetwork-text {
   font-weight: 500;
   font-size: 16px;
@@ -374,6 +379,76 @@ img {
 .container.footer-container {
   display: flex;
   align-items: baseline;
+}
+
+.footer-form-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-subform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-email {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+  width: 264px;
+  height: 40px;
+  padding: 8px 8px 8px 16px;
+  margin-right: 24px;
+}
+
+.footer-email::placeholder {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.footer-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  border-radius: 4px;
+  width: 165px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  padding: 0;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-btn:hover,
+.footer-btn:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
+.footer-telegram-icon {
+  fill: #fff;
 }
 
 .team-socnetwork-item .team-socnetwork-link:hover,
